@@ -1,0 +1,16 @@
+generated: '2026-07-18'
+method: searched
+source: https://www.joinassembly.com/status
+versioning: null
+deprecation: null
+sla:
+  uptime_target: 99.9%
+  source: https://www.joinassembly.com/status
+status_page: https://assembly1.statuspage.io
+status_page_provider: Atlassian Statuspage
+status_page_landing: https://www.joinassembly.com/status
+notes: Assembly advertises a 99.9% uptime commitment and hosts a public system-status
+  page (All Systems Operational) on Atlassian Statuspage, with email/Slack incident
+  notifications. No public API versioning or deprecation policy is published (Assembly
+  exposes no self-service developer API).
+deprecated_operations: []

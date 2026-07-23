@@ -1,8 +1,26 @@
 aid: assembly
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/assembly.png
 name: Assembly
-description: 'Assembly is a company surfaced as a portfolio company of homebrew, union-square-ventures,
-  y-combinator and added to the API Evangelist network as a stub for enrichment. Sector: developer-tools.
-  This profile is a lead awaiting the enrichment pipeline.'
+description: 'Assembly (joinassembly.com, by Quantum Workplace) is an employee recognition,
+  rewards, and engagement platform that helps organizations celebrate achievements, run
+  peer-to-peer recognition, milestone and anniversary celebrations, custom awards, challenges,
+  and an integrated rewards catalog to build company culture. Assembly connects to the
+  HR and communications stack through 80+ prebuilt integrations (Slack, Microsoft Teams,
+  BambooHR, Workday, ADP, Rippling, Okta, Google Workspace, and more). Assembly does not
+  publish a self-service developer REST API; integration is via its prebuilt connector
+  catalog. It was surfaced in the API Evangelist network as a portfolio company of Homebrew,
+  Union Square Ventures, and Y Combinator.'
 url: https://raw.githubusercontent.com/api-evangelist/assembly/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -14,10 +32,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Developer Tools
+- Employee Recognition
+- Employee Engagement
+- Rewards
+- Human Resources
+- Workplace
+- SaaS
+- Integrations
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,5 +50,36 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/assembly-domain-security.yml
+- type: TrustCenter
+  url: security/assembly-trust-center.yml
+- type: Compliance
+  url: security/assembly-trust-center.yml
+- type: VulnerabilityDisclosure
+  url: security/assembly-vulnerability-disclosure.yml
+- type: Security
+  url: https://www.joinassembly.com/security-policy
+- type: Lifecycle
+  url: lifecycle/assembly-lifecycle.yml
+- type: StatusPage
+  url: https://www.joinassembly.com/status
+- type: Pricing
+  url: https://www.joinassembly.com/pricing
+- type: Support
+  url: https://help.joinassembly.com
+- type: Blog
+  url: https://www.joinassembly.com/press
+- type: TermsOfService
+  url: https://www.joinassembly.com/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.joinassembly.com/privacy-policy
+- type: SignUp
+  url: https://www.joinassembly.com/book-demo
 - type: Website
   url: https://www.joinassembly.com
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
