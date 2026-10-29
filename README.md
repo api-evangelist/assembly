@@ -64,6 +64,97 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Assembly is a company surfaced as a portfolio company of homebrew, union-square-ventures, y-combinator and added to the API Evangelist network as a stub for enrichment. Sector: developer-tools. This profile is a lead awaiting the enrichment pipeline.
+Assembly (joinassembly.com, by Quantum Workplace) is an employee recognition, rewards, and engagement platform that helps organizations celebrate achievements, run peer-to-peer recognition, milestone and anniversary celebrations, custom awards, challenges, and an integrated rewards catalog to build company culture. Assembly connects to the HR and communications stack through 80+ prebuilt integrations (Slack, Microsoft Teams, BambooHR, Workday, ADP, Rippling, Okta, Google Workspace, and more). Assembly does not publish a self-service developer REST API; integration is via its prebuilt connector catalog. It was surfaced in the API Evangelist network as a portfolio company of Homebrew, Union Square Ventures, and Y Combinator.
 
-Backed by: homebrew, union-square-ventures, y-combinator — https://www.joinassembly.com
+**Areas:** Company · Developer Tools · Employee Recognition · Employee Engagement · Rewards · Human Resources · Workplace · Software-as-a-Service · Integration · Loyalty & Incentives
+
+## Assembly on APIs.io
+
+Everything profiled for Assembly is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/assembly/](https://apis.io/providers/assembly/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [assembly](https://apis.io/servers/assembly/assembly/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Assembly Domain Security](https://apis.io/security/assembly/assembly-domain-security/)
+- [Assembly Trust Center](https://apis.io/security/assembly/assembly-trust-center/)
+- [Assembly Vulnerability Disclosure](https://apis.io/security/assembly/assembly-vulnerability-disclosure/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.joinassembly.com)
+- [Pricing](https://www.joinassembly.com/pricing)
+- [Sign up](https://www.joinassembly.com/book-demo)
+- [Support](https://help.joinassembly.com)
+- [Blog](https://www.joinassembly.com/press)
+- [Security](https://www.joinassembly.com/security-policy)
+- [Terms of service](https://www.joinassembly.com/terms-of-service)
+- [Privacy policy](https://www.joinassembly.com/privacy-policy)
+- [Status](https://www.joinassembly.com/status)
+
+## API Evangelist rating
+
+**Kin Score 23.0** — emerging · rubric 0.25.0 · scored 2026-10-23
+
+| Facet | Score |
+|---|---|
+| Discoverability | 51.7 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 26.3 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 60.5 |
+
+**Agent readiness 12.2** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | verified |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+
+**Regulatory alignment 24.5** — Employment & Payroll
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/assembly/](https://apis.io/providers/assembly/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Assembly: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/assembly/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
